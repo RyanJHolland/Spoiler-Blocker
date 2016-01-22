@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ryan's Spoiler Blocker</title>
+</head>
+
+<body>
+
+  <div>
+  	<b>This extension is currently <span id="onOffSpan"></span>. Turn it on or off by pressing this button and reloading the page:
+    <button type="button" id="onOff" style="width:100px" value=""></button>
+    </b>
+  </div>
+  <br>
+
+  <div>
+  <b>Type words or phrases to block in the box below, separated by commas, then press SAVE.</b>
+  <br><br>Example: game of thrones, tyrion, stark, lannister, jon snow, daenerys, sansa, littlefinger, catelyn, arya, joffrey
+  <br><br>Capitalization does not matter.
+  <br><br>Be careful with words that are too common. "Han Solo" is fine, but "Han" triggers on "hand" and "than".
+  <br><br>You may need to reload to see changes.
+  <br><br>
+  </div>
+  <form>
+  <textarea id="words_HTML" rows="4" cols="50"></textarea>
+  <b><button type="button" id="saveButton" style="width: 100px; color: blue">SAVE</button></b>
+  <span id="statusMsg_HTML"></span>
+  </form>
+  <script src="options.js"></script>
+</body>
+</html>
