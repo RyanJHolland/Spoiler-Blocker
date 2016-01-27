@@ -1,7 +1,7 @@
 {
     "name": "Ryan's Spoiler Blocker",
     "description": "Choose keywords to block from your web browser, along with text surrounding them.",
-    "version": "1.1",
+    "version": "1.2",
     "manifest_version": 2,
     "browser_action": {
       "default_title": "Ryan's Spoiler Blocker",
